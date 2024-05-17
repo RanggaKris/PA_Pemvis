@@ -1,0 +1,527 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ProjectAkhir||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\loginhppage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:loginhppage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\artisteditlagu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:artisteditlagu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\adminhome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:adminhome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\adminhome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:adminhome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\homapage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:homapage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\daftarpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:daftarpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\artisteditlagu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:artisteditlagu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\artisthome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:artisthome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\halamanqueue.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:halamanqueue.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\daftarpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:daftarpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\loginhppage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:loginhppage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\homapage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:homapage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|d:\\penting!!!!\\papemvis\\projectakhir\\lagu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:lagu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|d:\\penting!!!!\\papemvis\\projectakhir\\halamanqueue.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:halamanqueue.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|d:\\penting!!!!\\papemvis\\projectakhir\\lagu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:lagu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|d:\\penting!!!!\\papemvis\\projectakhir\\manajemenartist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:manajemenartist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|d:\\penting!!!!\\papemvis\\projectakhir\\artisttambahlagu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:artisttambahlagu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\artisttambahlagu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:artisttambahlagu.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|d:\\penting!!!!\\papemvis\\projectakhir\\manajemenartist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:manajemenartist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|d:\\penting!!!!\\papemvis\\projectakhir\\editakunartist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:editakunartist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\bantuan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:bantuan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|d:\\penting!!!!\\papemvis\\projectakhir\\tambahakunartist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:tambahakunartist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|d:\\penting!!!!\\papemvis\\projectakhir\\editakunartist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:editakunartist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|d:\\penting!!!!\\papemvis\\projectakhir\\tambahakunartist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:tambahakunartist.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|d:\\penting!!!!\\papemvis\\projectakhir\\tambahakunartist.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:tambahakunartist.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\artisthome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:artisthome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|solutionrelative:loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52324A77-4E5C-46D1-994B-EFBCA505654B}|ProjectAkhir.vbproj|d:\\penting!!!!\\papemvis\\projectakhir\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|8998e48e-b89a-4034-b66e-353d8c1fdc2e"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 28,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HalamanQueue.vb [Design]",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\HalamanQueue.vb",
+              "RelativeDocumentMoniker": "HalamanQueue.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\HalamanQueue.vb [Design]",
+              "RelativeToolTip": "HalamanQueue.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-17T18:12:48.316Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Homapage.vb",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\Homapage.vb",
+              "RelativeDocumentMoniker": "Homapage.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\Homapage.vb",
+              "RelativeToolTip": "Homapage.vb",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-14T16:34:36.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Lagu.vb",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\Lagu.vb",
+              "RelativeDocumentMoniker": "Lagu.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\Lagu.vb",
+              "RelativeToolTip": "Lagu.vb",
+              "ViewState": "AQIAADsAAAAAAAAAAAA8wEEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-17T17:21:53.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Lagu.vb [Design]",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\Lagu.vb",
+              "RelativeDocumentMoniker": "Lagu.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\Lagu.vb [Design]",
+              "RelativeToolTip": "Lagu.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-17T17:20:41.617Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectAkhir",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ProjectAkhir.vbproj",
+              "RelativeDocumentMoniker": "ProjectAkhir.vbproj",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ProjectAkhir.vbproj",
+              "RelativeToolTip": "ProjectAkhir.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-17T17:09:07.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TambahAkunArtist.Designer.vb",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\TambahAkunArtist.Designer.vb",
+              "RelativeDocumentMoniker": "TambahAkunArtist.Designer.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\TambahAkunArtist.Designer.vb",
+              "RelativeToolTip": "TambahAkunArtist.Designer.vb",
+              "ViewState": "AQIAAPUAAAAAAAAAAAAkwAgBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-17T16:32:27.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EditAkunArtist.vb",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\EditAkunArtist.vb",
+              "RelativeDocumentMoniker": "EditAkunArtist.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\EditAkunArtist.vb",
+              "RelativeToolTip": "EditAkunArtist.vb",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAWwGcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-17T16:51:31.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TambahAkunArtist.vb",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\TambahAkunArtist.vb",
+              "RelativeDocumentMoniker": "TambahAkunArtist.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\TambahAkunArtist.vb",
+              "RelativeToolTip": "TambahAkunArtist.vb",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAjwFkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-17T16:32:13.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ManajemenArtist.vb [Design]",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ManajemenArtist.vb",
+              "RelativeDocumentMoniker": "ManajemenArtist.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ManajemenArtist.vb [Design]",
+              "RelativeToolTip": "ManajemenArtist.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-17T14:02:45.779Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EditAkunArtist.vb [Design]",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\EditAkunArtist.vb",
+              "RelativeDocumentMoniker": "EditAkunArtist.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\EditAkunArtist.vb [Design]",
+              "RelativeToolTip": "EditAkunArtist.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-17T15:00:58.863Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TambahAkunArtist.vb [Design]",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\TambahAkunArtist.vb",
+              "RelativeDocumentMoniker": "TambahAkunArtist.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\TambahAkunArtist.vb [Design]",
+              "RelativeToolTip": "TambahAkunArtist.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-17T15:00:42.245Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ManajemenArtist.vb",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ManajemenArtist.vb",
+              "RelativeDocumentMoniker": "ManajemenArtist.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ManajemenArtist.vb",
+              "RelativeToolTip": "ManajemenArtist.vb",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAWwGgAAACQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-17T14:03:13.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminHome.vb [Design]",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\AdminHome.vb",
+              "RelativeDocumentMoniker": "AdminHome.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\AdminHome.vb [Design]",
+              "RelativeToolTip": "AdminHome.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T01:27:06.712Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminHome.vb",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\AdminHome.vb",
+              "RelativeDocumentMoniker": "AdminHome.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\AdminHome.vb",
+              "RelativeToolTip": "AdminHome.vb",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAYwGAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T01:28:10.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ArtistHome.vb [Design]",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ArtistHome.vb",
+              "RelativeDocumentMoniker": "ArtistHome.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ArtistHome.vb [Design]",
+              "RelativeToolTip": "ArtistHome.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T02:04:54.113Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ArtistEditLagu.vb",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ArtistEditLagu.vb",
+              "RelativeDocumentMoniker": "ArtistEditLagu.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ArtistEditLagu.vb",
+              "RelativeToolTip": "ArtistEditLagu.vb",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAmwHsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-17T01:35:10.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArtistEditLagu.vb [Design]",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ArtistEditLagu.vb",
+              "RelativeDocumentMoniker": "ArtistEditLagu.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ArtistEditLagu.vb [Design]",
+              "RelativeToolTip": "ArtistEditLagu.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-16T18:12:23.687Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ArtistHome.vb",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ArtistHome.vb",
+              "RelativeDocumentMoniker": "ArtistHome.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ArtistHome.vb",
+              "RelativeToolTip": "ArtistHome.vb",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAQwHYAAACRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T02:05:11.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ArtistTambahLagu.vb",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ArtistTambahLagu.vb",
+              "RelativeDocumentMoniker": "ArtistTambahLagu.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ArtistTambahLagu.vb",
+              "RelativeToolTip": "ArtistTambahLagu.vb",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowB4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-17T02:15:30.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ArtistTambahLagu.vb [Design]",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ArtistTambahLagu.vb",
+              "RelativeDocumentMoniker": "ArtistTambahLagu.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\ArtistTambahLagu.vb [Design]",
+              "RelativeToolTip": "ArtistTambahLagu.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-16T18:12:00.649Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Bantuan.vb",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\Bantuan.vb",
+              "RelativeDocumentMoniker": "Bantuan.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\Bantuan.vb",
+              "RelativeToolTip": "Bantuan.vb",
+              "ViewState": "AQIAABoAAAAAAAAAAAAYwCIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-12T07:38:07.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Homapage.vb [Design]",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\Homapage.vb",
+              "RelativeDocumentMoniker": "Homapage.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\Homapage.vb [Design]",
+              "RelativeToolTip": "Homapage.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-17T01:45:18.633Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DaftarPage.vb [Design]",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\DaftarPage.vb",
+              "RelativeDocumentMoniker": "DaftarPage.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\DaftarPage.vb [Design]",
+              "RelativeToolTip": "DaftarPage.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-17T08:49:34.436Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginHpPage.vb [Design]",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\LoginHpPage.vb",
+              "RelativeDocumentMoniker": "LoginHpPage.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\LoginHpPage.vb [Design]",
+              "RelativeToolTip": "LoginHpPage.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T01:51:35.675Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginPage.vb [Design]",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\LoginPage.vb",
+              "RelativeDocumentMoniker": "LoginPage.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\LoginPage.vb [Design]",
+              "RelativeToolTip": "LoginPage.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-27T08:50:23.927Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginHpPage.vb",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\LoginHpPage.vb",
+              "RelativeDocumentMoniker": "LoginHpPage.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\LoginHpPage.vb",
+              "RelativeToolTip": "LoginHpPage.vb",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowCwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T01:51:38.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginPage.vb",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\LoginPage.vb",
+              "RelativeDocumentMoniker": "LoginPage.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\LoginPage.vb",
+              "RelativeToolTip": "LoginPage.vb",
+              "ViewState": "AQIAADMAAAAAAAAAAAAQwEUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T01:38:52.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DaftarPage.vb",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\DaftarPage.vb",
+              "RelativeDocumentMoniker": "DaftarPage.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\DaftarPage.vb",
+              "RelativeToolTip": "DaftarPage.vb",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAowCsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-15T01:49:39.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HalamanQueue.vb",
+              "DocumentMoniker": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\HalamanQueue.vb",
+              "RelativeDocumentMoniker": "HalamanQueue.vb",
+              "ToolTip": "D:\\PENTING!!!!\\PApemvis\\ProjectAkhir\\HalamanQueue.vb",
+              "RelativeToolTip": "HalamanQueue.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-14T17:44:56.62Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 99,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
