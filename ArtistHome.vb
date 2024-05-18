@@ -40,9 +40,7 @@ Public Class ArtistHome
     End Sub
 
 
-    Private Sub ArtistHome_FormClosed(sender As Object, e As FormClosedEventArgs) Handles Me.FormClosed
-        End
-    End Sub
+
 
     Private Sub ArtistTambahLagu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         TampilkanData()
@@ -129,8 +127,23 @@ Public Class ArtistHome
         Refreshs()
     End Sub
 
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
         DataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect
 
+    End Sub
+
+    Private Sub btnislogin_Click(sender As Object, e As EventArgs) Handles btnislogin.Click
+        If isLogin Then
+            Dim result As DialogResult = MessageBox.Show("Apakah Anda yakin ingin logout?", "Konfirmasi Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+            If result = DialogResult.Yes Then
+                ' Proses logout disini
+                MessageBox.Show("Berhasil Logout.", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                isLogin = False
+                loggedInUsername = ""
+                LoginPage.Show()
+                Me.Close()
+            End If
+
+        End If
     End Sub
 End Class

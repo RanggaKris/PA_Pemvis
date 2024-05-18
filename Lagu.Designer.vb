@@ -87,6 +87,7 @@ Partial Class Lagu
         Me.id_song.Size = New System.Drawing.Size(50, 20)
         Me.id_song.TabIndex = 3
         Me.id_song.Text = "id_song"
+        Me.id_song.Visible = False
         '
         'Lagu
         '

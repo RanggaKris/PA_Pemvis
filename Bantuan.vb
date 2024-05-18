@@ -39,4 +39,44 @@ Module Bantuan
             MessageBox.Show(ex.Message)
         End Try
     End Sub
+
+
+    Public Function GetSongs() As DataTable
+        Dim dt As New DataTable()
+        Try
+            koneksi()
+            Dim query As String = "SELECT id_lagu, cover, judul_lagu, nama_artist, source FROM lagu"
+            CMD = New MySqlCommand(query, CONN)
+            RD = CMD.ExecuteReader()
+            dt.Load(RD)
+        Catch ex As MySqlException
+            MessageBox.Show("Terjadi kesalahan: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            If RD IsNot Nothing AndAlso Not RD.IsClosed Then RD.Close()
+            If CONN IsNot Nothing AndAlso CONN.State = ConnectionState.Open Then CONN.Close()
+        End Try
+        Return dt
+    End Function
+
+    Public Function GetSongById(ByVal idLagu As Integer) As DataRow
+        Dim dt As New DataTable()
+        Try
+            koneksi()
+            Dim query As String = "SELECT cover, judul_lagu, nama_artist, source FROM lagu WHERE id_lagu = @idLagu"
+            CMD = New MySqlCommand(query, CONN)
+            CMD.Parameters.AddWithValue("@idLagu", idLagu)
+            RD = CMD.ExecuteReader()
+            dt.Load(RD)
+        Catch ex As MySqlException
+            MessageBox.Show("Terjadi kesalahan: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            If RD IsNot Nothing AndAlso Not RD.IsClosed Then RD.Close()
+            If CONN IsNot Nothing AndAlso CONN.State = ConnectionState.Open Then CONN.Close()
+        End Try
+        If dt.Rows.Count > 0 Then
+            Return dt.Rows(0)
+        Else
+            Return Nothing
+        End If
+    End Function
 End Module

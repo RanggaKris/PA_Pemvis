@@ -2,38 +2,29 @@
 Imports MySql.Data.MySqlClient
 
 Public Class Lagu
-    Public Sub LoadData(ByVal idLagu As Integer)
-        ' Query SQL untuk mendapatkan detail lagu dari database berdasarkan ID
-        Dim query As String = "SELECT cover, judul_lagu, nama_artist, source FROM lagu WHERE id_lagu = @idLagu"
+    Inherits UserControl
+    Public laguQueue As New Queue(Of String)()
 
-        Try
-            koneksi() ' Buka koneksi ke database
-            CMD = New MySqlCommand(query, CONN)
-            CMD.Parameters.AddWithValue("@idLagu", idLagu)
+    Public Sub New()
+        ' This call is required by the designer.
+        InitializeComponent()
+        ' Add any initialization after the InitializeComponent() call.
+    End Sub
 
-            RD = CMD.ExecuteReader()
+    Public Sub LoadData(ByVal row As DataRow)
+        If row IsNot Nothing Then
+            Dim coverPath As String = row("cover").ToString()
+            Dim judulLagu As String = row("judul_lagu").ToString()
+            Dim artistName As String = row("nama_artist").ToString()
 
-            If RD.Read() Then
-                Dim coverPath As String = RD("cover").ToString()
-                Dim judulLagu As String = RD("judul_lagu").ToString()
-                Dim artistName As String = RD("nama_artist").ToString()
-                Dim sourceLagu As String = RD("source").ToString()
-
-                ' Mengatur cover lagu
-                If File.Exists(PATH_COVER & coverPath) Then
-                    PictureBox1.Image = Image.FromFile(PATH_COVER & coverPath)
-                End If
-
-                ' Mengatur judul lagu dan nama artist
-                LinkLabel1.Text = judulLagu
-                Label1.Text = artistName
-
-                ' Mengatur ID lagu di TextBox tersembunyi
-                id_song.Text = idLagu.ToString()
+            If File.Exists(PATH_COVER & coverPath) Then
+                PictureBox1.Image = Image.FromFile(PATH_COVER & coverPath)
             End If
-        Catch ex As MySqlException
-            MessageBox.Show("Terjadi kesalahan: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
+
+            LinkLabel1.Text = judulLagu
+            Label1.Text = artistName
+            id_song.Text = row("id_lagu").ToString()
+        End If
     End Sub
 
     Private Sub LoadForm(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -63,7 +54,8 @@ Public Class Lagu
 
         ' Panggil fungsi untuk memutar lagu
         PlaySong(idLagu)
-        HalamanQueue.DataGridView1.Rows.Add(idLagu)
+        RiwayatPemutaran(idLagu)
+
     End Sub
 
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
@@ -73,41 +65,57 @@ Public Class Lagu
 
     ' Fungsi untuk memutar lagu berdasarkan ID
     Private Sub PlaySong(ByVal idLagu As String)
-        koneksi()
-
         Dim query As String = "SELECT source FROM lagu WHERE id_lagu = @idLagu"
-        CMD = New MySqlCommand(query, CONN)
-        CMD.Parameters.AddWithValue("@idLagu", idLagu)
-
         Try
+            koneksi()
+            CMD = New MySqlCommand(query, CONN)
+            CMD.Parameters.AddWithValue("@idLagu", idLagu)
             RD = CMD.ExecuteReader()
 
             If RD.Read() Then
                 Dim sourceLagu As String = RD("source").ToString()
                 Dim pathLagu As String = PATH_SONG & sourceLagu
 
-                ' Memeriksa apakah file lagu ada
                 If File.Exists(pathLagu) Then
-                    ' Atur source lagu ke kontrol MediaPlayer
                     Homapage.AxWindowsMediaPlayer1.URL = pathLagu
-                    ' Memutar lagu
                     Homapage.AxWindowsMediaPlayer1.Ctlcontrols.play()
-                    HalamanQueue.DataGridView1.Rows.Add(sourceLagu)
                 Else
                     MessageBox.Show("File lagu tidak ditemukan.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
                 End If
             End If
 
-            RD.Close()
         Catch ex As MySqlException
             MessageBox.Show("Terjadi kesalahan: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally
-            If RD IsNot Nothing AndAlso Not RD.IsClosed Then
-                RD.Close()
-            End If
-            If CONN IsNot Nothing AndAlso CONN.State = ConnectionState.Open Then
-                CONN.Close()
-            End If
+            If RD IsNot Nothing AndAlso Not RD.IsClosed Then RD.Close()
+            If CONN IsNot Nothing AndAlso CONN.State = ConnectionState.Open Then CONN.Close()
         End Try
     End Sub
+
+    Private Sub RiwayatPemutaran(ByVal idLagu As String)
+        Dim query As String = "SELECT judul_lagu FROM lagu WHERE id_lagu = @idLagu"
+        Try
+            koneksi()
+            CMD = New MySqlCommand(query, CONN)
+            CMD.Parameters.AddWithValue("@idLagu", idLagu)
+            RD = CMD.ExecuteReader()
+
+            If RD.Read() Then
+                Dim judulLagu As String = RD("judul_lagu").ToString()
+
+
+                Homapage.DataGridView1.Rows.Add(judulLagu)
+            End If
+
+        Catch ex As MySqlException
+            MessageBox.Show("Terjadi kesalahan saat menambahkan lagu ke queue: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            If RD IsNot Nothing AndAlso Not RD.IsClosed Then RD.Close()
+            If CONN IsNot Nothing AndAlso CONN.State = ConnectionState.Open Then CONN.Close()
+        End Try
+    End Sub
+
+
+
+
 End Class

@@ -21,7 +21,6 @@ D:\PENTING!!!!\PApemvis\ProjectAkhir\bin\Debug\AxInterop.WMPLib.dll
 D:\PENTING!!!!\PApemvis\ProjectAkhir\obj\Debug\Interop.WMPLib.dll
 D:\PENTING!!!!\PApemvis\ProjectAkhir\obj\Debug\AxInterop.WMPLib.dll
 D:\PENTING!!!!\PApemvis\ProjectAkhir\obj\Debug\ProjectAkhir.vbproj.ResolveComReference.cache
-D:\PENTING!!!!\PApemvis\ProjectAkhir\obj\Debug\ProjectAkhir.HalamanQueue.resources
 D:\PENTING!!!!\PApemvis\ProjectAkhir\obj\Debug\ProjectAkhir.AdminHome.resources
 D:\PENTING!!!!\PApemvis\ProjectAkhir\obj\Debug\ProjectAkhir.ArtistHome.resources
 D:\PENTING!!!!\PApemvis\ProjectAkhir\obj\Debug\ProjectAkhir.ArtistEditLagu.resources

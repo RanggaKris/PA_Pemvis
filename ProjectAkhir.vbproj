@@ -110,12 +110,6 @@
     <Compile Include="EditAkunArtist.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HalamanQueue.Designer.vb">
-      <DependentUpon>HalamanQueue.vb</DependentUpon>
-    </Compile>
-    <Compile Include="HalamanQueue.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Lagu.Designer.vb">
       <DependentUpon>Lagu.vb</DependentUpon>
     </Compile>
@@ -191,9 +185,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EditAkunArtist.resx">
       <DependentUpon>EditAkunArtist.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HalamanQueue.resx">
-      <DependentUpon>HalamanQueue.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lagu.resx">
       <DependentUpon>Lagu.vb</DependentUpon>

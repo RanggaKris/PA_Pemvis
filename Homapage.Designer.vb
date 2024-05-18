@@ -29,14 +29,16 @@ Partial Class Homapage
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.welcome = New System.Windows.Forms.Label()
         Me.btnislogin = New System.Windows.Forms.Button()
-        Me.HomesFlow = New System.Windows.Forms.FlowLayoutPanel()
-        Me.queue = New System.Windows.Forms.Panel()
-        Me.AxWindowsMediaPlayer1 = New AxWMPLib.AxWindowsMediaPlayer()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.HomesFlow = New System.Windows.Forms.FlowLayoutPanel()
+        Me.AxWindowsMediaPlayer1 = New AxWMPLib.AxWindowsMediaPlayer()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.namaLagu = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel1.SuspendLayout()
-        CType(Me.AxWindowsMediaPlayer1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.AxWindowsMediaPlayer1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -99,32 +101,6 @@ Partial Class Homapage
         Me.btnislogin.Text = "Login"
         Me.btnislogin.UseVisualStyleBackColor = True
         '
-        'HomesFlow
-        '
-        Me.HomesFlow.AutoScroll = True
-        Me.HomesFlow.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.HomesFlow.Location = New System.Drawing.Point(189, 100)
-        Me.HomesFlow.Name = "HomesFlow"
-        Me.HomesFlow.Size = New System.Drawing.Size(894, 519)
-        Me.HomesFlow.TabIndex = 11
-        '
-        'queue
-        '
-        Me.queue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.queue.Location = New System.Drawing.Point(7, 100)
-        Me.queue.Name = "queue"
-        Me.queue.Size = New System.Drawing.Size(176, 519)
-        Me.queue.TabIndex = 12
-        '
-        'AxWindowsMediaPlayer1
-        '
-        Me.AxWindowsMediaPlayer1.Enabled = True
-        Me.AxWindowsMediaPlayer1.Location = New System.Drawing.Point(0, 624)
-        Me.AxWindowsMediaPlayer1.Name = "AxWindowsMediaPlayer1"
-        Me.AxWindowsMediaPlayer1.OcxState = CType(resources.GetObject("AxWindowsMediaPlayer1.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxWindowsMediaPlayer1.Size = New System.Drawing.Size(1086, 45)
-        Me.AxWindowsMediaPlayer1.TabIndex = 10
-        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.ProjectAkhir.My.Resources.Resources._217_2178237_open_eye_vector_show_hide_password_icon
@@ -136,13 +112,50 @@ Partial Class Homapage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
+        'HomesFlow
+        '
+        Me.HomesFlow.AutoScroll = True
+        Me.HomesFlow.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.HomesFlow.Location = New System.Drawing.Point(189, 100)
+        Me.HomesFlow.Name = "HomesFlow"
+        Me.HomesFlow.Size = New System.Drawing.Size(894, 519)
+        Me.HomesFlow.TabIndex = 11
+        '
+        'AxWindowsMediaPlayer1
+        '
+        Me.AxWindowsMediaPlayer1.Enabled = True
+        Me.AxWindowsMediaPlayer1.Location = New System.Drawing.Point(0, 625)
+        Me.AxWindowsMediaPlayer1.Name = "AxWindowsMediaPlayer1"
+        Me.AxWindowsMediaPlayer1.OcxState = CType(resources.GetObject("AxWindowsMediaPlayer1.OcxState"), System.Windows.Forms.AxHost.State)
+        Me.AxWindowsMediaPlayer1.Size = New System.Drawing.Size(1097, 43)
+        Me.AxWindowsMediaPlayer1.TabIndex = 13
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.namaLagu})
+        Me.DataGridView1.GridColor = System.Drawing.SystemColors.Control
+        Me.DataGridView1.Location = New System.Drawing.Point(7, 101)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.RowHeadersVisible = False
+        Me.DataGridView1.Size = New System.Drawing.Size(176, 518)
+        Me.DataGridView1.TabIndex = 14
+        '
+        'namaLagu
+        '
+        Me.namaLagu.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.namaLagu.HeaderText = "Riwayat Pemutaran"
+        Me.namaLagu.Name = "namaLagu"
+        Me.namaLagu.Width = 173
+        '
         'Homapage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1086, 667)
-        Me.Controls.Add(Me.queue)
+        Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.AxWindowsMediaPlayer1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label2)
@@ -156,8 +169,9 @@ Partial Class Homapage
         Me.TopMost = True
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.AxWindowsMediaPlayer1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.AxWindowsMediaPlayer1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -169,7 +183,8 @@ Partial Class Homapage
     Friend WithEvents btnislogin As Button
     Friend WithEvents welcome As Label
     Friend WithEvents AxWindowsMediaPlayer1 As AxWMPLib.AxWindowsMediaPlayer
-    Friend WithEvents HomesFlow As FlowLayoutPanel
-    Friend WithEvents queue As Panel
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents HomesFlow As FlowLayoutPanel
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents namaLagu As DataGridViewTextBoxColumn
 End Class

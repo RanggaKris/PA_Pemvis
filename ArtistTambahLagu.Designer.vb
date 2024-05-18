@@ -87,10 +87,8 @@ Partial Class ArtistTambahLagu
         '
         Me.TextBox2.Location = New System.Drawing.Point(307, 142)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(481, 20)
         Me.TextBox2.TabIndex = 3
-        Me.TextBox2.Text = "Rangga Star"
         '
         'txtJudul
         '
